@@ -1,0 +1,293 @@
+#index {
+	font-family: Georgia, serif;
+	margin: 0;
+	text-align: center;
+    vertical-align: middle;
+    background-color: gold;
+    box-shadow: inset 0px 0px 250px 150px rgba(0,0,0,0.15); 
+    
+}
+
+#about {
+    font-family: Georgia, serif;
+    margin: 0;
+	text-align: center;
+    vertical-align: middle;
+    background-color: indianred;
+    
+}
+
+#reach {
+	font-family: Georgia, serif;
+	margin: 0;
+	text-align: center;
+    vertical-align: middle;
+    background-color: indianred;
+    
+}
+
+#collection {
+	font-family: Georgia, serif;
+	margin: 0;
+	text-align: center;
+    vertical-align: middle;
+    background-color: indianred;
+    
+}
+
+#pro {
+	font-family: Georgia, serif;
+	margin: 0;
+	text-align: center;
+    vertical-align: middle;
+    background-color: indianred;
+    
+}
+
+.header p {
+	color: white;
+	font-size: 12px;
+    font-family: 'Cinzel', sans-serif;
+}
+
+.hero {
+    color: black;
+    font-size: 40px;
+    font-family: 'Georgia', 'Helvetica';
+    text-align: center;
+    vertical-align: middle;
+    padding: 50px 0;
+    margin: 10px;
+
+}
+
+.hero a {
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+}
+
+a:hover {
+    color: white;
+    
+}
+
+.background, .background1 {
+    width: 700px;
+	height: 600px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0; 
+    background-size: 600px 500px;
+    animation-play-state: paused;
+}
+.background {
+    background: url("./Images/circles(maroon and blue).png") top center no-repeat;
+    animation: rot 2s infinite linear;
+}
+.background1 {
+    background: url("./Images/circles(maroon and blue)2.png") top center no-repeat;
+	animation: rot 3s infinite linear;
+}
+
+.backgrounds:hover .background1, .backgrounds:hover .background{
+    animation-play-state: running;
+    
+}
+
+@keyframes rot {
+    from {
+        transform: rotate(0deg)
+		           translate(-15px)
+		           rotate(0deg);
+    }
+	to {
+		transform: rotate(360deg)
+		           translate(-15px) 
+		           rotate(-360deg);
+        }
+    }
+
+
+.nav {
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.contact a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-family: 'Georgia', 'Helvetica';
+    text-align: center;
+    vertical-align: middle;
+    padding: 50px 0;
+	margin: 8px;
+
+}
+
+a:hover{
+    color: white;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    list-style-type: none;    
+}
+
+.lions {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+}
+
+.lion-item {
+    margin: 20px;
+    font-size: 12px;
+}
+
+
+.gallery {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+}
+
+.gallery-item {
+    margin: 20px;
+}
+
+.project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url("");
+
+}
+
+.project-item {
+    margin: 20px;
+    background-image: url("");
+}
+
+.project-item1:hover {
+    background-image: url("");
+    height: 50px;
+    width: 50px;
+    
+}
+
+.project-item2:hover {
+    background-image: url("");
+    height: 50px;
+    width: 50px;
+    
+}
+
+.project-item3:hover {
+    background-image: url("");
+    height: 50px;
+    width: 50px;
+    
+}
+
+.footer {
+    color: black;
+    font-size: 10px;
+	font-family: 'Georgia', 'Helvetica';
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+
+.top {
+    color: aliceblue;
+    font-size: 20px;
+	font-family: 'Georgia', 'Helvetica';
+    text-align: center;
+    vertical-align: middle;
+    padding: 100px 0;
+	margin: 10px;
+    background-image: url("./Images/aerial view - ktown.png");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.mid p{
+    font-size: 20px;
+    
+}
+
+.mid  a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+a:hover{
+    color: black;
+}
+
+
+.collections {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+}
+
+.collection-item {
+    margin: 20px;
+}
+
+
+.footer2{
+   background-color: lightgrey;
+    
+}
+
+.footer2 a{
+    color: black;
+    text-decoration: none; 
+    
+}
+
+.home {
+    position: fixed;
+    top: 5px;
+    left: 20px;
+    
+}
+
+.home img{
+    width: 50px;
+    height: 50px;
+    
+}
+
+.home p{
+    text-align: right;
+    vertical-align: middle;
+    font-size: 25px;
+}
+
+.home a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+}
