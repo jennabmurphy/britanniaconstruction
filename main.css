@@ -1,5 +1,7 @@
 body {
-  text-align: center;
+    text-align: center;
+    margin: 0;
+    height: 100%;
 }
 
 #index {
@@ -18,7 +20,7 @@ body {
 }
 
 #about {
-    font-family: Georgia, serif;
+    font-family: 'Raleway', serif;
     margin: 0;
 	text-align: center;
     vertical-align: middle;
@@ -26,8 +28,8 @@ body {
     
 }
 
-#reach {
-	font-family: Georgia, serif;
+#pro {
+    font-family: 'Raleway', 'Georgia';
 	margin: 0;
 	text-align: center;
     vertical-align: middle;
@@ -36,7 +38,7 @@ body {
 }
 
 #collection {
-	font-family: Georgia, serif;
+	font-family: 'Raleway', serif;
 	margin: 0;
 	text-align: center;
     vertical-align: middle;
@@ -44,19 +46,22 @@ body {
     
 }
 
-#pro {
-	font-family: Georgia, serif;
+#reach {
+	font-family: 'Raleway', serif;
 	margin: 0;
-	text-align: center;
-    vertical-align: middle;
+    height: 100vh;
     background-color: indianred;
     
 }
+
+
+
+
 
 .header p {
 	color: white;
 	font-size: 12px;
-    font-family: 'Cinzel', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 .hero {
@@ -66,7 +71,7 @@ body {
     text-align: center;
     vertical-align: middle;
     padding: 50px 0;
-    margin: 10px;
+    margin: 5px;
 
 }
 
@@ -76,8 +81,10 @@ body {
     vertical-align: middle;
 }
 
-a:hover {
+.hero a:hover {
     color: white;
+    background-color: black;
+    text-decoration: none;
     
 }
 
@@ -93,11 +100,12 @@ a:hover {
 
 .background,
 .background1 {
-    width: 100%;
-    height: 100%;
+    width: 115%;
+    height: 115%;
     position: absolute;
     z-index: -1;
-    margin: auto;
+    margin-top: -2%;
+    margin-left: -6.30%;
     top: 0;
     bottom: 0;
     left: 0; 
@@ -158,8 +166,11 @@ a:hover {
     margin: 8px;
 }
 
-a:hover{
+.contact a:hover{
     color: white;
+    text-decoration: none;
+    background-color:transparent;
+    opacity:1;
 }
 
 ul {
@@ -178,23 +189,74 @@ ul {
 
 .lion-item {
     margin: 20px;
-    font-size: 12px;
 }
 
+.lion-item p {
+    font-size: 12px;
+    font-family: 'Raleway', 'Georgia';
+}
+
+.footer {
+    color: black;
+    font-size: 10px;
+	font-family: 'Raleway', 'Georgia';
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+
+
+
+.top {
+    color: floralwhite;
+    font-size: 20px;
+	font-family: 'Raleway', 'Helvetica';
+    text-align: center;
+    vertical-align: middle;
+    padding: 100px 0;
+	margin: 10px;
+    background-image: url("./Images/aerial view - ktown.png");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.mid p{
+    font-size: 20px;
+    
+}
+
+.mid p  a{
+    color: whitesmoke;
+    text-decoration: none;
+    
+}
+
+.mid p a:hover{
+    color: black;
+}
 
 .gallery {
     margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    color: white;
+    color: whitesmoke;
 }
 
 .gallery-item {
     margin: 20px;
 }
 
+
+
+
+
+
 .project {
+    font-family: 'Raleway', 'Georgia';
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -203,6 +265,7 @@ ul {
 }
 
 .project-item {
+    font-family: 'Raleway', 'Georgia';
     margin: 20px;
     background-image: url("");
 }
@@ -228,45 +291,8 @@ ul {
     
 }
 
-.footer {
-    color: black;
-    font-size: 10px;
-	font-family: 'Georgia', 'Helvetica';
-    text-align: center;
-    vertical-align: middle;
-    
-}
 
 
-.top {
-    color: aliceblue;
-    font-size: 20px;
-	font-family: 'Georgia', 'Helvetica';
-    text-align: center;
-    vertical-align: middle;
-    padding: 100px 0;
-	margin: 10px;
-    background-image: url("./Images/aerial view - ktown.png");
-	background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    
-}
-
-.mid p{
-    font-size: 20px;
-    
-}
-
-.mid  a{
-    color: white;
-    text-decoration: none;
-    
-}
-
-a:hover{
-    color: black;
-}
 
 
 .collections {
@@ -282,16 +308,62 @@ a:hover{
 }
 
 
+
+
+
+.headings {
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 20%;
+}
+
+.headings h1 a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.headings h1 a:hover {
+    color: black;
+}
+
+
+
+
+
 .footer2{
-   background-color: lightgrey;
-    
+    background-color: floralwhite;
+    font-family: 'Raleway', sans-serif;
+    position:relative;
+    bottom:0;
+    width:100%;
+    height:30px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.footer2 p{
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    bottom:0;
+    width:100%;
+    height:10px;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .footer2 a{
     color: black;
     text-decoration: none; 
-    
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    vertical-align: middle;
 }
+
+.footer2 a:hover{
+    color: indianred;
+}
+
+
 
 .home {
     position: fixed;
@@ -310,6 +382,7 @@ a:hover{
     text-align: right;
     vertical-align: middle;
     font-size: 25px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .home a{
