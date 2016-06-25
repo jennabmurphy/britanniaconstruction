@@ -24,7 +24,7 @@ body {
     margin: 0;
 	text-align: center;
     vertical-align: middle;
-    background-color: indianred;
+    background-color: darkred;
     
 }
 
@@ -33,7 +33,7 @@ body {
 	margin: 0;
 	text-align: center;
     vertical-align: middle;
-    background-color: indianred;
+    background-color: darkred;
     
 }
 
@@ -42,15 +42,15 @@ body {
 	margin: 0;
 	text-align: center;
     vertical-align: middle;
-    background-color: indianred;
+    background-color: darkred;
     
 }
 
 #reach {
 	font-family: 'Raleway', serif;
-	margin: 0;
-    height: 100vh;
-    background-color: indianred;
+	margin-top: 0;
+    height: 30vh;
+    background-color: darkred;
     
 }
 
@@ -208,6 +208,8 @@ ul {
 
 
 
+
+
 .top {
     color: lavenderblush;
     font-size: 20px;
@@ -256,45 +258,117 @@ ul {
 
 
 
-.project {
+
+
+.projects {
     text-align: center;
     vertical-align: middle;
-    margin-top: 20%;
-    height: 58.5vh;
-    font-family: 'Raleway', 'Georgia';
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-image: url("");
-
-}
-
-.project-item {
+    margin-top: 5%;
+    height: 72vh;
     font-family: 'Raleway', 'Georgia';
+    font-size: 20px;
+    
+}
+
+.project-item1, .project-item2, .project-item3 {
     margin: 20px;
-    background-image: url("");
-}
-
-.project-item1:hover {
-    background-image: url("");
-    height: 50px;
-    width: 50px;
+    vertical-align: middle;
+    text-align: center;
     
 }
 
-.project-item2:hover {
-    background-image: url("");
-    height: 50px;
-    width: 50px;
+.project-item1:hover, .project-item2:hover, .project-item3:hover {
+    color: whitesmoke;
     
 }
 
-.project-item3:hover {
-    background-image: url("");
-    height: 50px;
-    width: 50px;
+.homes {
+    vertical-align: middle;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    background-image: url("./Images/home4.jpg");
+    background-size: 400px 400px;
+    background-repeat: no-repeat;
+    background-position: center;
     
 }
+
+.kitchen {
+    vertical-align: middle;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    background-image: url("./Images/kitchen3.jpg");
+    background-size: 400px 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.reno {
+    vertical-align: middle;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    background-image: url("./Images/reno1.jpg");
+    background-size: 400px 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.homes:hover {
+    background-image: url("./Images/home3.jpg");
+    background-size: 400px 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.kitchen:hover {
+    background-image: url("./Images/kitchen2.jpg");
+    background-size: 400px 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.reno:hover {
+    background-image: url("./Images/reno3.jpg");
+    background-size: 400px 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+
+.gallink {
+    margin-bottom: 30px;
+    height: 9vh;
+    font-family: 'Raleway', 'Georgia';
+    font-size: 20px;
+    
+}
+
+.gallink a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+
+.gallink a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
 
 
 
@@ -303,8 +377,8 @@ ul {
 .collections {
     text-align: center;
     vertical-align: middle;
-    margin-top: 20%;
-    height: 58.5vh;
+    margin-top: 5%;
+    height: 300vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -322,7 +396,7 @@ ul {
 .headings {
     text-align: center;
     vertical-align: middle;
-    margin-top: 20%;
+    margin-top: 15%;
 }
 
 .headings h1 a {
@@ -334,6 +408,14 @@ ul {
     color: black;
 }
 
+.headings p {
+    font-size: 50px;
+    
+}
+
+
+
+
 
 
 
@@ -342,7 +424,7 @@ ul {
     background-color: floralwhite;
     font-family: 'Raleway', sans-serif;
     position:relative;
-    bottom: 0;
+    margin-bottom: 0;
     width: 100%;
     height: 25px;
     text-align: center;
@@ -368,8 +450,14 @@ ul {
 }
 
 .footer2 a:hover{
-    color: indianred;
+    color: darkred;
 }
+
+
+
+
+
+
 
 
 
