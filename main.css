@@ -24,7 +24,11 @@ body {
     margin: 0;
 	text-align: center;
     vertical-align: middle;
+<<<<<<< HEAD
     background-color: indianred;
+=======
+    background-color: darkred;
+>>>>>>> origin/master
     
 }
 
@@ -33,7 +37,11 @@ body {
 	margin: 0;
 	text-align: center;
     vertical-align: middle;
+<<<<<<< HEAD
     background-color: indianred;
+=======
+    background-color: darkred;
+>>>>>>> origin/master
     
 }
 
@@ -42,15 +50,25 @@ body {
 	margin: 0;
 	text-align: center;
     vertical-align: middle;
+<<<<<<< HEAD
     background-color: indianred;
+=======
+    background-color: darkred;
+>>>>>>> origin/master
     
 }
 
 #reach {
 	font-family: 'Raleway', serif;
+<<<<<<< HEAD
 	margin: 0;
     height: 100vh;
     background-color: indianred;
+=======
+	margin-top: 0;
+    height: 30vh;
+    background-color: darkred;
+>>>>>>> origin/master
     
 }
 
@@ -208,8 +226,15 @@ ul {
 
 
 
+<<<<<<< HEAD
 .top {
     color: floralwhite;
+=======
+
+
+.top {
+    color: lavenderblush;
+>>>>>>> origin/master
     font-size: 20px;
 	font-family: 'Raleway', 'Helvetica';
     text-align: center;
@@ -239,7 +264,12 @@ ul {
 }
 
 .gallery {
+<<<<<<< HEAD
     margin-top: 20px;
+=======
+    text-align: center;
+    vertical-align: middle;
+>>>>>>> origin/master
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -255,6 +285,7 @@ ul {
 
 
 
+<<<<<<< HEAD
 .project {
     font-family: 'Raleway', 'Georgia';
     display: flex;
@@ -291,12 +322,133 @@ ul {
     
 }
 
+=======
+
+
+.projects {
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5%;
+    height: 72vh;
+    font-family: 'Raleway', 'Georgia';
+    font-size: 20px;
+    
+}
+
+.project-item1, .project-item2, .project-item3 {
+    margin: 20px;
+    vertical-align: middle;
+    text-align: center;
+    
+}
+
+.project-item1:hover, .project-item2:hover, .project-item3:hover {
+    color: whitesmoke;
+    
+}
+
+.homes {
+    vertical-align: middle;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    background-image: url("./Images/home4.jpg");
+    background-size: 400px 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.kitchen {
+    vertical-align: middle;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    background-image: url("./Images/kitchen3.jpg");
+    background-size: 400px 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.reno {
+    vertical-align: middle;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    background-image: url("./Images/reno1.jpg");
+    background-size: 400px 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.homes:hover {
+    background-image: url("./Images/home3.jpg");
+    background-size: 400px 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.kitchen:hover {
+    background-image: url("./Images/kitchen2.jpg");
+    background-size: 400px 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.reno:hover {
+    background-image: url("./Images/reno3.jpg");
+    background-size: 400px 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+
+.gallink {
+    margin-bottom: 30px;
+    height: 9vh;
+    font-family: 'Raleway', 'Georgia';
+    font-size: 20px;
+    
+}
+
+.gallink a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+
+.gallink a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
+
+>>>>>>> origin/master
 
 
 
 
 .collections {
+<<<<<<< HEAD
     margin-top: 20px;
+=======
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 5%;
+    height: 300vh;
+>>>>>>> origin/master
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -314,7 +466,11 @@ ul {
 .headings {
     text-align: center;
     vertical-align: middle;
+<<<<<<< HEAD
     margin-top: 20%;
+=======
+    margin-top: 15%;
+>>>>>>> origin/master
 }
 
 .headings h1 a {
@@ -326,6 +482,17 @@ ul {
     color: black;
 }
 
+<<<<<<< HEAD
+=======
+.headings p {
+    font-size: 50px;
+    
+}
+
+
+
+
+>>>>>>> origin/master
 
 
 
@@ -334,9 +501,15 @@ ul {
     background-color: floralwhite;
     font-family: 'Raleway', sans-serif;
     position:relative;
+<<<<<<< HEAD
     bottom:0;
     width:100%;
     height:30px;
+=======
+    margin-bottom: 0;
+    width: 100%;
+    height: 25px;
+>>>>>>> origin/master
     text-align: center;
     vertical-align: middle;
 }
@@ -360,11 +533,24 @@ ul {
 }
 
 .footer2 a:hover{
+<<<<<<< HEAD
     color: indianred;
+=======
+    color: darkred;
+>>>>>>> origin/master
 }
 
 
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+>>>>>>> origin/master
 .home {
     position: fixed;
     top: 5px;
