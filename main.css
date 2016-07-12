@@ -208,6 +208,15 @@ ul {
     
 }
 
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:hover {
+    color: black;
+    text-decoration: none; 
+}
 
 
 
