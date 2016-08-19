@@ -188,6 +188,7 @@ ul {
     flex-wrap: wrap;
     justify-content: center;
     color: white;
+    text-decoration: none;
 }
 
 .lion-item {
@@ -197,6 +198,18 @@ ul {
 .lion-item p {
     font-size: 12px;
     font-family: 'Raleway', 'Georgia';
+    color: white;
+    text-decoration: none;
+}
+
+.lion-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.lion-item a:hover {
+    color: black;
+    
 }
 
 .footer {
